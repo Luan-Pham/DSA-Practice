@@ -61,8 +61,6 @@ function cleanerUniqueValues(arr) {
   }
 
   let i = 0;
-  let j = 1;
-
   for (j = 0; j < arr.length; j++) {
     if (arr[i] !== arr[j]) {
       i++;
